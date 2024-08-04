@@ -1,0 +1,25 @@
+{
+  "name": "whycss",
+  "displayName": "WhyCSS",
+  "description": "General-purpose programming language with Css syntax, compiled to GoLang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "whycss",
+      "aliases": ["WhyCSS", "whycss"],
+      "extensions": [".ycss"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "whycss",
+      "scopeName": "source.ycss",
+      "path": "./syntaxes/whycss.tmLanguage.json"
+    }]
+  }
+}
