@@ -1,4 +1,4 @@
-# whycss README
+# Why.CSS Extension
 
 This is the README for your extension "whycss". After writing up a brief description, we recommend including the following sections.
 
